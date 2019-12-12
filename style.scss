@@ -1,0 +1,127 @@
+$white-color: #fff;
+$header-color: $white-color;
+
+nav {
+    position: relative;
+}
+
+.navbar-brand-image {
+    width: 23px;
+    height: 25px;
+    vertical-align: text-top;
+    padding: auto;
+
+    &:hover {
+        fill: red;
+    }
+}
+
+.phone-link {
+    color: rgba(255, 255, 255, 1);
+
+    &:hover {
+        color: rgba(255, 0, 0, .5);
+        text-decoration: none;
+    }
+}
+
+.phone-button-ico {
+    width: 2rem;
+    height: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: $header-color;
+}
+
+@media (max-width: 576px) {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-size: 1.3rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+
+@media (max-width: 998px) {
+    .phone-link {
+        display: none;
+    }
+}
+
+.main {
+    height: 70vh;
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('./images/background.jpg') 50% 50%;
+    background-size: cover !important;
+    position: relative;
+}
+
+.device-item-image {
+    width: 200px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.trust-section {
+    background: #f5f5f5;
+}
+
+.trust-image {
+    max-width: 62px;
+}
+
+#map {
+    height: 70vh;
+    width: 100%;
+}
+
+.footer {
+    height: 100%;
+}
+
+.footer-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, .5);
+}
+
+.footer-phone-link {
+    color: rgba(255, 255, 255, 1);
+
+    &:hover {
+        color: rgba(255, 0, 0, .5);
+        text-decoration: none;
+    }
+}
+
+.social-img-vk {
+    width: 3rem;
+    height: 4rem;
+    margin-right: -6px;
+}
+
+.social-img-facebook {
+    width: 2rem;
+    height: 2.5rem;
+}
+
+.social-img-insta {
+    width: 2.2rem;
+    height: 3.5rem;
+}
