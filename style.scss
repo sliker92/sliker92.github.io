@@ -23,6 +23,26 @@ $header-color: $white-color;
     padding-left: .1rem;
 }
 
+.device-price-form-header {
+    border-top: 1px solid #6c757d;
+    padding-top: 1.2rem;
+    letter-spacing: .15rem;
+    padding-bottom: 1rem;
+}
+
+.device-price-items-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.device-price-items-list-item {
+    border-bottom: 1px solid #6c757d;
+    &:first-child {
+        padding-top: 1.2rem;
+    }
+}
+
 .map-phone {
     color: #dc3545;
 }
